@@ -2,14 +2,7 @@
 import { css } from "@emotion/react";
 import { LuDownload } from "react-icons/lu";
 import portfolio from "../portfolio/portfolio-supakit.pdf";
-import {
-  Link,
-  Button,
-  Element,
-  Events,
-  animateScroll as scroll,
-  scrollSpy,
-} from "react-scroll";
+import { Link, animateScroll as scroll } from "react-scroll";
 
 function NavBar() {
   return (
@@ -24,9 +17,6 @@ function NavBar() {
         top: 0;
       `}
     >
-      <div>
-        <p>LOGO</p>
-      </div>
       <div
         className="navbarbutton-group"
         css={css`
