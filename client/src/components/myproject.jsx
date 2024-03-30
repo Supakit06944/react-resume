@@ -30,65 +30,66 @@ function MyProject() {
           padding: 50px 0 50px 0;
         `}
       >
-        <div className="education">
-          <h1
-            css={css`
-              color: white;
-              margin: 0;
-              padding: 0px 0 0 70px;
-              font-weight: 600;
-              font-size: 20px;
-            `}
-          >
-            CSS Mini Project
-          </h1>
-          <h4
-            css={css`
-              color: white;
-              margin: 0;
-              padding: 10px 0 0 70px;
-              font-weight: 500;
-              font-size: 14px;
-            `}
-          >
-            A landing page and responsive education website developed as a team
-            project using Git for collaboration. Technologies used: [HTML,
-            TailwindCSS, Git]
-          </h4>
-        </div>
-
-        <div
-          className="workexperience"
+        <a
+          href="https://github.com/Supakit06944/team-css-mini-project"
+          target="_blank"
           css={css`
-            width: 100%;
+            color: white;
+            margin: 0;
+            padding: 0px 0 0 70px;
+            font-weight: 600;
+            font-size: 20px;
           `}
         >
-          <h4
-            css={css`
-              color: white;
-              margin: 0;
-              padding: 10px 0 0 70px;
-              font-weight: 500;
-              font-size: 20px;
-            `}
-          >
-            Tourist Attraction Search Website
-          </h4>
-          <h4
-            css={css`
-              color: white;
-              margin: 0;
-              padding: 10px 0 0 70px;
-              font-weight: 500;
-              font-size: 14px;
-            `}
-          >
-            A website that can search for tourist attractions and recommend them
-            based on requirements. Technologies used: [React, TailwindCSS]
-          </h4>
-        </div>
+          CSS Mini Project
+        </a>
+        <a
+          href="https://github.com/Supakit06944/team-css-mini-project"
+          target="_blank"
+          css={css`
+            color: white;
+            margin: 0;
+            padding: 10px 0 0 70px;
+            font-weight: 500;
+            font-size: 14px;
+          `}
+        >
+          A landing page and responsive education website developed as a team
+          project using Git for collaboration. Technologies used: [HTML,
+          TailwindCSS, Git]
+        </a>
 
-        <h4
+        <a
+          href="https://github.com/Supakit06944/react-mini-project"
+          target="_blank"
+          css={css`
+            color: white;
+            margin: 0;
+            padding: 10px 0 0 70px;
+            font-weight: 500;
+            font-size: 20px;
+          `}
+        >
+          Tourist Attraction Search Website
+        </a>
+        <a
+          href="https://github.com/Supakit06944/react-mini-project"
+          target="_blank"
+          css={css`
+            color: white;
+            margin: 0;
+            padding: 10px 0 0 70px;
+            font-weight: 500;
+            font-size: 14px;
+          `}
+        >
+          A website that can search for tourist attractions and recommend them
+          based on requirements. Technologies used: [React, TailwindCSS]
+        </a>
+
+        <a
+          href="https://github.com/Supakit06944/backend-checkskill"
+          target="_blank"
           css={css`
             color: white;
             margin: 0;
@@ -98,8 +99,10 @@ function MyProject() {
           `}
         >
           Create API
-        </h4>
-        <h4
+        </a>
+        <a
+          href="https://github.com/Supakit06944/backend-checkskill"
+          target="_blank"
           css={css`
             color: white;
             margin: 0;
@@ -110,8 +113,11 @@ function MyProject() {
         >
           Create a basic API from requests and write API documentation.
           Technologies used: [Node.js, JavaScript]
-        </h4>
-        <h4
+        </a>
+
+        <a
+          href="https://github.com/Arphasirisub/pet-sitter-app"
+          target="_blank"
           css={css`
             color: white;
             margin: 0;
@@ -121,8 +127,10 @@ function MyProject() {
           `}
         >
           Pet Sitter Website
-        </h4>
-        <h4
+        </a>
+        <a
+          href="https://github.com/Arphasirisub/pet-sitter-app"
+          target="_blank"
           css={css`
             color: white;
             margin: 0;
@@ -157,7 +165,7 @@ function MyProject() {
           </ul>
           Technologies used: [HTML, React, CSS, Node.js, Supabase, Git,
           JavaScript]
-        </h4>
+        </a>
       </div>
     </div>
   );
